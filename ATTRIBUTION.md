@@ -1,0 +1,1 @@
+# Attribution\n\nOriginal bird, forest obstacles, and all interface art were drawn in code for this game by Sampot (2026). No third-party art is used.\n

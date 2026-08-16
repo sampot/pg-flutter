@@ -1,0 +1,2 @@
+import {describe,it,expect} from 'vitest';import {flap,stepBird,hitsGate,passedGate} from './game.js';
+describe('flutter',()=>{it('flaps upward',()=>expect(flap({vy:2}).vy).toBeLessThan(0));it('gravity accelerates down',()=>expect(stepBird({y:5,vy:1}).vy).toBeGreaterThan(1));it('detects tree collision',()=>expect(hitsGate({x:50,y:10,r:8},{x:45,width:20,gapY:100,gap:50})).toBe(true));it('scores passed gates',()=>expect(passedGate({x:100},{x:40,width:30,scored:false})).toBe(true))});
